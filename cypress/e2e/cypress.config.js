@@ -26,7 +26,7 @@ module.exports = defineConfig({
         // supportFile:"../../support/e2e.js",
         supportFile:false,
         setupNodeEvents: function (on, config) {
-            return require(' ../../plugins/index.js')(on, config)
+            return require('../../plugins/index.js')(on, config)
         },
         baseUrl: 'https://training.bigbyte.academy/#'
     }
